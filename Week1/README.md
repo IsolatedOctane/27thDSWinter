@@ -54,9 +54,17 @@ python mab_assignment.py
 식은 아래를 사용합니다.
 $$(I - \gamma P_\pi) v = R_\pi$$
 
+### 서술형 질문
+- (Part 2에서처럼) 선형대수로 연립방정식을 풀어 Bellman 기대 방정식의 해를 구할 수 있습니다.
+- 그렇다면 최적(Optimality) 벨만 방정식도 같은 방식으로 선형 연립방정식으로 풀 수 있을까요?
+- 가능/불가능하다면 그 이유는 무엇인가요?
+
+> 답안은 [mab_assignment.py](mab_assignment.py) 하단 `A:`에 작성하시면 됩니다.
+
 ### 구현할 것 (TODO)
 - `build_random_policy_matrices(env)`
 - `greedy_path_from_value(env, V, ...)`
+- `서술형 질문의 답안 작성`
 
 ### 실행 (렌더 옵션)
 ```bash
